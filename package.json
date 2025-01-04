@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "@~/root",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "type": "module",
+  "scripts": {
+    "type-check": "tsc",
+    "test": "vitest",
+    "fmt": "npm run fmt:format && npm run fmt:lint",
+    "fmt:format": "biome format --write .",
+    "fmt:lint": "biome lint --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react": "4.3.4",
+    "jsdom": "25.0.1",
+    "typescript": "5.7.2",
+    "vite": "6.0.7",
+    "vitest": "2.1.8"
+  },
+  "volta": {
+    "node": "22.12.0"
+  },
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
