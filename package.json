@@ -6,8 +6,9 @@
     "packages/*"
   ],
   "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "5.7.2"
+  },
   "volta": {
     "node": "22.12.0"
   }
