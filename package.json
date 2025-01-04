@@ -5,7 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "type-check": "tsc"
+  },
   "devDependencies": {
     "typescript": "5.7.2"
   },
