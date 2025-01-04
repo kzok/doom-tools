@@ -8,7 +8,10 @@
   "type": "module",
   "scripts": {
     "type-check": "tsc",
-    "test": "vitest"
+    "test": "vitest",
+    "fmt": "npm run fmt:format && npm run fmt:lint",
+    "fmt:format": "biome format --write .",
+    "fmt:lint": "biome lint --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
