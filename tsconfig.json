@@ -9,6 +9,7 @@
     "rootDir": "./",
     "skipLibCheck": true,
     "incremental": true,
+    "jsx": "react-jsx",
 
     "strict": true,
     "noUnusedLocals": true,

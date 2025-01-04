@@ -1,5 +1,9 @@
 {
   "private": true,
   "name": "@~/wad-viewer",
-  "scripts": {}
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  }
 }
