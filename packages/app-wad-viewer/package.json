@@ -1,6 +1,7 @@
 {
-  "private": true,
   "name": "@~/wad-viewer",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",

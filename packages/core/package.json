@@ -3,11 +3,8 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": {
-      "import": "./lib/index.ts",
-      "require": "./lib/index.ts",
-      "types": "./lib/index.ts"
-    },
+    "./wad": "./lib/wad/index.ts",
+    "./test": "./lib/test/index.ts",
     "./package.json": "./package.json"
   },
   "scripts": {}

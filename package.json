@@ -1,9 +1,8 @@
 {
-  "private": true,
   "name": "@~/root",
-  "version": "1.0.0",
-  "workspaces": ["packages/*"],
+  "private": true,
   "type": "module",
+  "workspaces": ["packages/*"],
   "scripts": {
     "type-check": "tsc",
     "test": "vitest",
