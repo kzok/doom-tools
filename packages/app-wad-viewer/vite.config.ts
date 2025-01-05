@@ -1,4 +1,9 @@
-import { defineConfig } from "vite";
+import { defineConfig, mergeConfig } from "vite";
 import { sharedConfig } from "../../vite.config";
 
-export default defineConfig(sharedConfig);
+export default mergeConfig(
+  sharedConfig,
+  defineConfig({
+    base: "./",
+  }),
+);
