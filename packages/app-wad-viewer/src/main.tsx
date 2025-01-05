@@ -1,9 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { greet } from "./greet";
+import { UnderConstruction } from "./under-construction";
+
+import "./styles/reset.css";
+import "./styles/global.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <h1>{greet("Vite")}</h1>
+    <UnderConstruction />
   </StrictMode>,
 );

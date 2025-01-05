@@ -29,3 +29,10 @@ precommit: node_modules
 .PHONY: wad-viewer/dev ## Start dev server of wad-viewer
 wad-viewer/dev: node_modules
 	npm run -w @~/wad-viewer dev
+
+.PHONY: build ## Build static files for GitHub pages
+build: node_modules
+	rm -fr ./dist
+	npm run -w @~/wad-viewer build
+	mkdir -p ./dist
+	mv ./packages/app-wad-viewer/dist ./dist/wad-viewer
