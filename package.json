@@ -10,7 +10,8 @@
     "fmt:format": "biome format --write .",
     "fmt:lint": "biome lint --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
