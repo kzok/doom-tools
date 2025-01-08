@@ -1,4 +1,4 @@
-import styles from "./under-construction.module.css";
+import styles from "./index.module.css";
 
 export const UnderConstruction: React.FC = () => (
   <div className={styles.container}>

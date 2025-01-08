@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { UnderConstruction } from "./under-construction";
+import { UnderConstruction } from "./components/under-construction";
 
 import "@~/core/styles/reset.css";
 import "@~/core/styles/global.css";
