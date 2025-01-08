@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { UnderConstruction } from "../under-construction";
+import { UnderConstruction } from "../index";
 
 describe(UnderConstruction, () => {
   it("show message.", () => {
