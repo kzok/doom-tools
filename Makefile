@@ -26,7 +26,7 @@ precommit: node_modules
 	npm run test -- --changed --run
 	npm run fmt
 
-.PHONY: wad-viewer/dev ## Start dev server of wad-viewer
+.PHONY: wad-viewer-dev ## Start dev server of wad-viewer
 wad-viewer/dev: node_modules
 	npm run -w @~/wad-viewer dev
 
