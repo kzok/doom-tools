@@ -2,11 +2,5 @@
   "name": "@~/core",
   "private": true,
   "type": "module",
-  "exports": {
-    "./wad": "./lib/wad/index.ts",
-    "./test": "./lib/test/index.ts",
-    "./styles/*": "./lib/styles/*",
-    "./package.json": "./package.json"
-  },
   "scripts": {}
 }
