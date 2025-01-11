@@ -13,5 +13,6 @@ const preview: Preview = {
 
 import "@~/core/styles/reset.css";
 import "@~/core/styles/global.css";
+import "./preview.css";
 
 export default preview;
