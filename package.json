@@ -2,9 +2,7 @@
   "name": "@~/root",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
     "type-check": "tsc",
     "test": "vitest",
