@@ -11,10 +11,6 @@ const config: StorybookConfig = {
       files: "*.stories.tsx",
     },
   ],
-  addons: [
-    "@chromatic-com/storybook",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-  ],
+  addons: ["@storybook/addon-essentials", "@storybook/addon-interactions"],
 };
 export default config;
